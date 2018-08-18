@@ -1,3 +1,4 @@
+/*
 function forLoop(crackers){
   for (var i = 1; i < 25; i++) {
     if (i === 1) {
@@ -10,8 +11,9 @@ function forLoop(crackers){
   }
   return crackers;
 }
+*/
       
-/* function forLoop(array) {
+function forLoop(array) {
   
   for (let i = 0; i < 25; i++) {
     if (i === 1) {
@@ -23,7 +25,7 @@ function forLoop(crackers){
   }
   return array
 }
-*/
+
 
 function whileLoop(n) {
   while (n > 0) {
