@@ -1,8 +1,8 @@
-/*
+
 function forLoop(crackers){
   for (var i = 1; i < 25; i++) {
     if (i === 1) {
-      crackers.push("I am" + 1 + "strange loop.");
+      crackers.push("I am" + i + "strange loop.");
       
       }
     else {
@@ -11,8 +11,8 @@ function forLoop(crackers){
   }
   return crackers;
 }
-*/
-      
+
+ /*     
 function forLoop(array) {
   
   for (let i = 0; i < 25; i++) {
@@ -26,7 +26,7 @@ function forLoop(array) {
   return array
 }
 
-
+*/
 function whileLoop(n) {
   while (n > 0) {
     console.log(--n);
